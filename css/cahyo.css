@@ -1,0 +1,248 @@
+/*#bgeologi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100vw;
+  min-width: 320px;
+}*/
+
+.btnsy {
+  margin: 0 auto;
+  width: 196px;
+  height: 52px;
+  background-color: #3098cb;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnsy:hover {
+  background-color: #218aba;
+}
+
+.more {
+  background-color: #ebebeb;
+  color: #808080;
+}
+
+.more:hover {
+  background-color: #e6eff4;
+  color: #0973a7;
+}
+
+hr {
+  margin: 0;
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  color: #dedede !important;
+}
+
+.cardsy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dedede;
+  background-color: #fff;
+  box-shadow: 1.5px 1.5px 4px 1.5px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease;
+}
+
+.cardsy:hover {
+  border-color: #0187c6;
+}
+
+.cardsy .hidecontent {
+  display: none;
+  width: 90%;
+  padding-left: 25px;
+}
+
+.cardsy .book {
+  color: #dedede;
+}
+
+.cardsy .book img {
+  margin: 21px auto 0 auto;
+}
+
+.cardsy .book i {
+  position: absolute;
+  margin: 14px 0 0 45px;
+  font-size: 23px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.cardsy .book i:hover {
+  color: #e5e5e5;
+}
+
+.cardsy .bookname {
+  display: -webkit-box;
+  margin-top: 22px;
+  padding: 0 10px;
+  height: 50px;
+  text-align: center;
+  color: #6b6b6b;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -moz-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -ms-text-overflow: -o-ellipsis-lastline;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.cardsy .bookname:hover {
+  color: #0187c6;
+  text-decoration: underline;
+}
+
+.cardsy .hidethis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 10px auto;
+  cursor: pointer;
+}
+
+.cardsy .hidethis p {
+  margin-top: -1px;
+  font-size: 13px;
+  color: #949494;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.cardsy .hidethis .hidei {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  margin-left: -21px;
+  width: 23px;
+  height: 22px;
+  background-color: #dedede;
+  color: #fff;
+  font-family: Courgette;
+  font-size: 20px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.cardsy .hidethis:hover p {
+  color: #3098cb;
+}
+
+.cardsy .hidethis:hover .hidei {
+  background-color: #3098cb;
+}
+
+.author,
+.date,
+.about,
+.readnow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 0;
+  width: 90%;
+  font-size: 11px;
+  color: #3098cb;
+}
+
+.author i,
+.date i,
+.about i,
+.readnow i {
+  margin-right: 15px;
+  font-size: 29px;
+  color: #3098cb;
+}
+
+.author {
+  font-size: 12px;
+  margin: 18px 0;
+}
+
+.date i {
+  font-size: 27px;
+}
+
+.about i {
+  font-size: 25px;
+}
+
+.readnow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 22px 0 19px 0;
+}
+
+.readnow .fulltext {
+  margin-right: 33px;
+  cursor: pointer;
+}
+
+.readnow .fulltext i {
+  color: #c0cbd1;
+}
+
+.readnow .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.readnow .text a {
+  margin-top: 8px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #c0cbd1;
+}
+
+.readnow .text i {
+  margin: 0;
+  color: #c0cbd1;
+  transition: color 0.3s ease;
+}
+
+.fulltext:hover i,
+.text:hover i,
+.text:hover a {
+  color: #3098cb;
+}
+
+.btnsy {
+  margin: 6px auto 30px auto;
+}
+
+.more {
+  margin: 8px auto;
+}
+/*---other-----*/
+.blueblue,
+.blueblue:hover {
+  color: #3098cb !important;
+}
+
+.booknamefull {
+  -webkit-line-clamp: 10 !important;
+  line-clamp: 10 !important;
+  -moz-line-clamp: 10 !important;
+}
