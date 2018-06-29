@@ -19,7 +19,7 @@ if ($count == 1){
 	header("location:admin.php");
 }else{
 //Username atau password tidak sesuai, maka anda akan diarahkan ke halaman index.php kembali
-echo "<script> alert('Username = rovi | Password = 17140021'); document.location='index.html' </script>";
+echo "<script> alert('Username = sahal | Password = 17140013'); document.location='index.html' </script>";
 }
 
 
